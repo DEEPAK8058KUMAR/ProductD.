@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.firstcontaner{
+    display: flex;
+    /* height: 30vmax  ; */
+
+    /* background-color: rgb(124, 124, 169); */
+    
+}
+.firstcontaner>.left{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 20vmax;
+    color: crimson;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.firstcontaner>.mid{
+    /* border: 2px solid black; */
+    width: 60vmax;
+    
+}
+.firstcontaner>.right{
+    /* border: 2px solid black; */
+    width: 20vmax;
+   
+}
+.firstcontaner>.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding: 1vmax;
+    font-size: large;
+    
+}
+.navforlisticon{
+    height: 3.5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(155, 150, 143);
+
+    
+}
+.navforlisticon>a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.firstcontaner>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.firstcontaner>.mid>a{
+text-decoration: none;
+color: black;
+font-size: 1.2vmax;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+
+
+}
+
+
+
+/* <!------------------------------- for home ------------------------------------------------- --> */
+
+.contanerhome{
+    /* height: 70vmax; */
+    /* border: 2px solid gold; */
+    display: flex;
+    width: auto;
+    /* height: 38vmax; */
+    background-image: linear-gradient(to right, rgb(163, 198, 198),rgb(132, 132, 192));
+
+    /* background-image: linear-gradient(color rgb(176, 169, 169) rgb(140, 169, 146)); */
+}
+
+.contanerhome>.lefthome{
+    /* border: 5px solid violet; */
+    width: 50vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large; 
+}
+.contanerhome>.righthome{
+    /* border: 5px solid violet; */
+    width: 50vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#imghome{
+    margin-top: 4vmax;
+    margin-left: 12vmax;
+    margin-bottom: 1vmax;
+    padding: 1vmax;
+}
+.lefthome > h3{
+    font-size: 2vmax;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: -1.5vmax;
+margin-right: 7vmax;
+}
+
+.lefthome > h1{
+    font-size: 4vmax;
+    margin-top: -10vmax;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .lefthome>p{
+    width: 35vmax;
+        
+    }
+    
+
+    #Products>h1{
+        color: red;
+        border-bottom: 2px solid crimson;
+        text-align: center;
+        width: 10vmax;
+        margin: auto;
+        margin-top: 2vmax;
+    }
+    .productcontaner{
+        
+        display: flex;
+        /* background-color: aquamarine; */
+        height: 100%;
+        max-width: 70vmax;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 4vmax;
+    }
+
+    .product{
+        /* border: 2px solid red; */
+        height: 33vmax;
+        cursor: smooth;
+        cursor: pointer;
+      
+        
+    }
+    .product>img{
+        /* border:2px solid purple; */
+        width: 20vmax;
+        padding: 1vmax  ;
+    }
+    .product>h3{
+        text-align: center;
+        margin-top: -0vmax;
+    }
+    .product> h4{
+        /* color: black; */
+        text-align: center;
+        margin-top: -1.1vmax;
+        text-decoration: none;
+    }
+
+
+    footer{
+        height: 15vmax;
+        margin-top: 4vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:rgb(48, 48, 81);
+        color: rgb(14, 4, 4);
+        padding: 2vmax;
+        /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+        
+    
+    }
+    .firstfotter{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* height: 3vmax; */
+    }
+    .firstfotter>a{
+        color: white;
+        text-decoration: none;
+       
+    }
+
+    .Help{
+        display: flex;
+        flex-direction: column;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .Help>a{
+        text-decoration: none;color: white;
+       
+
+    }
+    .CONSUMERPolicy{
+        display: flex;
+        flex-direction: column;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .CONSUMERPolicy>a{
+        text-decoration: none;color: white;
+       
+
+
+    }
+    .nine{
+        margin-top: -1.1vmax;
+        height:2vmax;
+        background-color: rgb(134, 130, 124);
+      text-align: center;
+      padding: 0.3vmax;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .product:hover{
+        transform:scale(1.1)
+    }
+
+
+   
